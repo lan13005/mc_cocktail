@@ -1,0 +1,6 @@
+cd b1to5g
+root -l -b -q runDSelector_7_17_14.C
+cd ..
+hadd allMC_trees.root a0/degALL_acc_mEllipse_treeFlat_DSelector.root a2/degALL_acc_mEllipse_treeFlat_DSelector.root b1to5g/degALL_acc_mEllipse_treeFlat_DSelector.root etap_to_etapipi/degALL_acc_mEllipse_treeFlat_DSelector.root eta_to_3pi/degALL_acc_mEllipse_treeFlat_DSelector.root f1_1285_to_etapipi/degALL_acc_mEllipse_treeFlat_DSelector.root omega_pi0g/degALL_acc_mEllipse_treeFlat_DSelector.root pi0pi0/degALL_acc_mEllipse_treeFlat_DSelector.root a2pi/degALL_acc_mEllipse_treeFlat_DSelector.root
+cd /d/grid13/ln16/q-values-2
+python run.py 111
